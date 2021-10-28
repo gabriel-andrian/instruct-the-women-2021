@@ -40,3 +40,5 @@ class OpenTests(APITestCase):
         self.assertDictEqual(
             response_data, {"error": "One or more packages doesn't exist"}
         )
+
+        
