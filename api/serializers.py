@@ -53,7 +53,7 @@ class ProjectSerializer(serializers.ModelSerializer):
         # Algumas referência para uso de models do Django:
         # - https://docs.djangoproject.com/en/3.2/topics/db/models/
         # - https://www.django-rest-framework.org/api-guide/serializers/#saving-instances
-        
+        # com
         packages = validated_data["packages"]
 
         projeto = Project.objects.create(name=validated_data["name"])  
